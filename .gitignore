@@ -1,1 +1,2 @@
-./src/environments.py
+environments.py
+__pycache__/
