@@ -1,9 +1,9 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 
-import environments as env
-from DB import db_collection
-from model import chat_with_gpt, get_last_index
+from src import environments as env
+from src.DB import db_collection
+from src.model import chat_with_gpt, get_last_index
 
 bot = Bot(token=env.TOKEN)
 dp = Dispatcher(bot)

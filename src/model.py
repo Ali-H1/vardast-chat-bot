@@ -1,8 +1,8 @@
 from openai import OpenAI
 from scipy.spatial.distance import cosine
 
-import environments as env
-from DB import db_collection
+from src import environments as env
+from src.DB import db_collection
 
 openAI_client = OpenAI(api_key=env.openAI_client_API_KEY)
 

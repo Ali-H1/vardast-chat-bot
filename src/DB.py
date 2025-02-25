@@ -1,5 +1,6 @@
 from pymongo import MongoClient
-import environments as env
+
+from src import environments as env
 
 client = MongoClient(env.MONGO_URI)
 db = client.chatbot

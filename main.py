@@ -1,5 +1,7 @@
 import logging
+
 from aiogram.utils import executor
+
 from src.telegram import dp
 
 if __name__ == "__main__":
